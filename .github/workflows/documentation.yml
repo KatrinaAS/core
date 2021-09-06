@@ -2,7 +2,7 @@ name: Documentation
 
 on:
   pull_request:
-    branches: [feature/phpDocumentation]
+    branches: [master]
     types: [ closed]
 
 jobs:
