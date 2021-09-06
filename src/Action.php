@@ -13,7 +13,9 @@ class Action implements \Serializable
 {
     protected string $id;
     private ?Viewpoint $viewpoint = null;
+public function i_test_things(string $puppy,int $kitty,ActionGroup $pop) {
 
+    }
     /**
      * Construct a new action with the specified Scene as its destination.
      * @param string $destinationSceneId
