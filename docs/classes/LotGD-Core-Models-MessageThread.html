@@ -58,7 +58,7 @@
     <ul class="phpdocumentor-list">
                     <li>
                 <a href="namespaces/lotgd-core.html">Core</a>
-                
+
             </li>
             </ul>
 
@@ -68,7 +68,7 @@
                                     <h4 class="phpdocumentor-sidebar__root-namespace"><a href="packages/Application.html">Application</a></h4>
 
                         </section>
-            
+
     <section class="phpdocumentor-sidebar__category">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
@@ -93,18 +93,18 @@
         <h2 class="phpdocumentor-content__title">
     MessageThread
 
-    
+
             <div class="phpdocumentor-element__package">
             in package
             <ul class="phpdocumentor-breadcrumbs">
                                     <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
                             </ul>
         </div>
-    
+
             <span class="phpdocumentor-element__implements">
             implements
                             <a href="classes/LotGD-Core-Models-SaveableInterface.html"><abbr title="\LotGD\Core\Models\SaveableInterface">SaveableInterface</abbr></a>                    </span>
-    
+
             <span class="phpdocumentor-element__extends">
             Uses
                             <a href="classes/LotGD-Core-Tools-Model-Saveable.html"><abbr title="\LotGD\Core\Tools\Model\Saveable">Saveable</abbr></a>                    </span>
@@ -130,7 +130,7 @@
                     <span class="phpdocumentor-tag__name">Entity</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                                                                
+
                                                  <section class="phpdocumentor-description"><p>(repositoryClass=&quot;LotGD\Core\Models\Repositories\MessageThreadRepository&quot;)</p>
 </section>
 
@@ -139,7 +139,7 @@
                     <span class="phpdocumentor-tag__name">Table</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                                                                
+
                                                  <section class="phpdocumentor-description"><p>(name=&quot;message_threads&quot;)</p>
 </section>
 
@@ -157,8 +157,8 @@
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/LotGD-Core-Models-SaveableInterface.html"><abbr title="\LotGD\Core\Models\SaveableInterface">SaveableInterface</abbr></a></dt>
         <dd>Interface for createable models.</dd>
-    
-    
+
+
     </dl>
 
 
@@ -263,9 +263,9 @@
 
 
 
-        
 
-        
+
+
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
@@ -291,17 +291,17 @@
 
     </aside>
 
-    
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$id</span>
     </code>
 
-    
+
         <section class="phpdocumentor-description"></section>
 
-    
+
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
         <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
@@ -311,7 +311,7 @@
                     <span class="phpdocumentor-tag__name">Id</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                                                                
+
                                                  <section class="phpdocumentor-description"><p>@Column(type=&quot;integer&quot;) @GeneratedValue</p>
 </section>
 
@@ -339,17 +339,17 @@
 
     </aside>
 
-    
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$messages</span>
     </code>
 
-    
+
         <section class="phpdocumentor-description"></section>
 
-    
+
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
         <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
@@ -359,7 +359,7 @@
                     <span class="phpdocumentor-tag__name">OneToMany</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                                                                
+
                                                  <section class="phpdocumentor-description"><p>(targetEntity=&quot;Message&quot;, mappedBy=&quot;thread&quot;, cascade={&quot;persist&quot;})</p>
 </section>
 
@@ -387,17 +387,17 @@
 
     </aside>
 
-    
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$participants</span>
     </code>
 
-    
+
         <section class="phpdocumentor-description"></section>
 
-    
+
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
         <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
@@ -407,7 +407,7 @@
                     <span class="phpdocumentor-tag__name">ManyToMany</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                                                                
+
                                                  <section class="phpdocumentor-description"><p>(targetEntity=&quot;Character&quot;, cascade={&quot;persist&quot;}, mappedBy=&quot;messageThreads&quot;)</p>
 </section>
 
@@ -435,17 +435,17 @@
 
     </aside>
 
-    
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$readonly</span>
      = <span class="phpdocumentor-signature__default-value">false</span></code>
 
-    
+
         <section class="phpdocumentor-description"></section>
 
-    
+
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
         <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
@@ -455,7 +455,7 @@
                     <span class="phpdocumentor-tag__name">Column</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                                                                
+
                                                  <section class="phpdocumentor-description"><p>(type=&quot;boolean&quot;, options={&quot;default&quot;=false})</p>
 </section>
 
@@ -483,17 +483,17 @@
 
     </aside>
 
-    
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$threadKey</span>
     </code>
 
-    
+
         <section class="phpdocumentor-description"></section>
 
-    
+
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
         <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
@@ -503,7 +503,7 @@
                     <span class="phpdocumentor-tag__name">Column</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                                                                
+
                                                  <section class="phpdocumentor-description"><p>(type=&quot;string&quot;, length=255, unique=true)</p>
 </section>
 
@@ -541,7 +541,7 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$threadKey</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$participants</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$readonly</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-    
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -549,31 +549,31 @@
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$participants</span>
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$readonly</span>
                 : <span class="phpdocumentor-signature__argument__return-type">bool</span>
                  = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-        
-    
+
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -598,7 +598,7 @@
     <span class="phpdocumentor-signature__visibility">public</span>
             <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">_save</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/LotGD-Core-Models-SaveableInterface.html"><abbr title="\LotGD\Core\Models\SaveableInterface">SaveableInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$object</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$em</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-    
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -606,24 +606,24 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/LotGD-Core-Models-SaveableInterface.html"><abbr title="\LotGD\Core\Models\SaveableInterface">SaveableInterface</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$em</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-        
-    
+
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -642,12 +642,12 @@
 
     </aside>
 
-    
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">addMessage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/LotGD-Core-Models-Message.html"><abbr title="\LotGD\Core\Models\Message">Message</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$message</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-    
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -655,11 +655,11 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/LotGD-Core-Models-Message.html"><abbr title="\LotGD\Core\Models\Message">Message</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+
             </dd>
             </dl>
 
-    
+
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
         <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
@@ -670,16 +670,16 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                 <span class="phpdocumentor-tag-link"><a href="classes/LotGD-Core-Exceptions-CoreException.html"><abbr title="\LotGD\Core\Exceptions\CoreException">CoreException</abbr></a></span>
-                                                            
-                                             
+
+
                                     </dd>
                         </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-        
-    
+
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -704,15 +704,15 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-    
-    
-    
+
+
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">int</span>
             &mdash;
-        
-    
+
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -737,15 +737,15 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getMessages</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr></span></code>
 
-    
-    
-    
+
+
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr></span>
             &mdash;
-        
-    
+
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -770,15 +770,15 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getParticipants</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr></span></code>
 
-    
-    
-    
+
+
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr></span>
             &mdash;
-        
-    
+
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -803,15 +803,15 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">isReadonly</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-    
-    
-    
+
+
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">bool</span>
             &mdash;
-        
-    
+
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -836,7 +836,7 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">save</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$em</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-    
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -844,21 +844,21 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+
             </dd>
             </dl>
 
-    
+
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-        
-    
+
+
 </article>
             </section>
 
-        
+
     <script type="text/javascript">
         function loadExternalCodeSnippets(line) {
             Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach((pre) => {
